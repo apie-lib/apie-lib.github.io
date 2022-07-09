@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>Code Coverage for /home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages/core/src/Attributes/Internal.php</title>
+  <title>Code Coverage for /home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages/fixtures/src/Other/ClassWithAttributes.php</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="../../../_css/octicons.css" rel="stylesheet" type="text/css">
@@ -17,10 +17,10 @@
       <nav aria-label="breadcrumb">
        <ol class="breadcrumb">
          <li class="breadcrumb-item"><a href="../../../index.html">/home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages</a></li>
-         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">fixtures</a></li>
          <li class="breadcrumb-item"><a href="../index.html">src</a></li>
-         <li class="breadcrumb-item"><a href="index.html">Attributes</a></li>
-         <li class="breadcrumb-item active">Internal.php</li>
+         <li class="breadcrumb-item"><a href="index.html">Other</a></li>
+         <li class="breadcrumb-item active">ClassWithAttributes.php</li>
 
        </ol>
       </nav>
@@ -59,7 +59,7 @@
       </tr>
 
       <tr>
-       <td class=""><abbr title="Apie\Core\Attributes\Internal">Internal</abbr></td>
+       <td class=""><abbr title="Apie\Fixtures\Other\ClassWithAttributes">ClassWithAttributes</abbr></td>
        <td class=" big"></td>
        <td class=" small"><div align="right">n/a</div></td>
        <td class=" small"><div align="right">0&nbsp;/&nbsp;0</div></td>
@@ -79,14 +79,15 @@
 <table id="code" class="table table-borderless table-condensed">
 <tbody>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="1" href="#1">1</a></td><td class="col-11 codeLine"><span class="default">&lt;?php</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="2" href="#2">2</a></td><td class="col-11 codeLine"><span class="keyword">namespace</span><span class="default">&nbsp;</span><span class="default">Apie\Core\Attributes</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="2" href="#2">2</a></td><td class="col-11 codeLine"><span class="keyword">namespace</span><span class="default">&nbsp;</span><span class="default">Apie\Fixtures\Other</span><span class="keyword">;</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="3" href="#3">3</a></td><td class="col-11 codeLine"></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="4" href="#4">4</a></td><td class="col-11 codeLine"><span class="keyword">use</span><span class="default">&nbsp;</span><span class="default">Attribute</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="4" href="#4">4</a></td><td class="col-11 codeLine"><span class="keyword">use</span><span class="default">&nbsp;</span><span class="default">Apie\Core\Attributes\Requires</span><span class="keyword">;</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="5" href="#5">5</a></td><td class="col-11 codeLine"></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="6" href="#6">6</a></td><td class="col-11 codeLine"><span class="default">#[</span><span class="default">Attribute</span><span class="keyword">(</span><span class="default">Attribute</span><span class="default">::</span><span class="default">TARGET_CLASS</span><span class="keyword">)</span><span class="keyword">]</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="7" href="#7">7</a></td><td class="col-11 codeLine"><span class="keyword">class</span><span class="default">&nbsp;</span><span class="default">Internal</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="8" href="#8">8</a></td><td class="col-11 codeLine"><span class="keyword">{</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="9" href="#9">9</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="6" href="#6">6</a></td><td class="col-11 codeLine"><span class="keyword">class</span><span class="default">&nbsp;</span><span class="default">ClassWithAttributes</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="7" href="#7">7</a></td><td class="col-11 codeLine"><span class="keyword">{</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="8" href="#8">8</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">#[</span><span class="default">Requires</span><span class="keyword">(</span><span class="default">'test'</span><span class="keyword">)</span><span class="keyword">]</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="9" href="#9">9</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public</span><span class="default">&nbsp;</span><span class="default">string</span><span class="default">&nbsp;</span><span class="default">$property</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="10" href="#10">10</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
 
 </tbody>
 </table>
