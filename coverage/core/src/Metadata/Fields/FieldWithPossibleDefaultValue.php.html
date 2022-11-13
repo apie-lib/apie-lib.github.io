@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>Code Coverage for /home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages/apie-bundle/src/Security/Interfaces/CheckLoginStatusInterface.php</title>
+  <title>Code Coverage for /home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages/core/src/Metadata/Fields/FieldWithPossibleDefaultValue.php</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="../../../../_css/octicons.css" rel="stylesheet" type="text/css">
@@ -17,11 +17,11 @@
       <nav aria-label="breadcrumb">
        <ol class="breadcrumb">
          <li class="breadcrumb-item"><a href="../../../../index.html">/home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages</a></li>
-         <li class="breadcrumb-item"><a href="../../../index.html">apie-bundle</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">core</a></li>
          <li class="breadcrumb-item"><a href="../../index.html">src</a></li>
-         <li class="breadcrumb-item"><a href="../index.html">Security</a></li>
-         <li class="breadcrumb-item"><a href="index.html">Interfaces</a></li>
-         <li class="breadcrumb-item active">CheckLoginStatusInterface.php</li>
+         <li class="breadcrumb-item"><a href="../index.html">Metadata</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Fields</a></li>
+         <li class="breadcrumb-item active">FieldWithPossibleDefaultValue.php</li>
 
        </ol>
       </nav>
@@ -66,16 +66,14 @@
 <table id="code" class="table table-borderless table-condensed">
 <tbody>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="1" href="#1">1</a></td><td class="col-11 codeLine"><span class="default">&lt;?php</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="2" href="#2">2</a></td><td class="col-11 codeLine"><span class="keyword">namespace</span><span class="default">&nbsp;</span><span class="default">Apie\ApieBundle\Security\Interfaces</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="2" href="#2">2</a></td><td class="col-11 codeLine"><span class="keyword">namespace</span><span class="default">&nbsp;</span><span class="default">Apie\Core\Metadata\Fields</span><span class="keyword">;</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="3" href="#3">3</a></td><td class="col-11 codeLine"></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="4" href="#4">4</a></td><td class="col-11 codeLine"><span class="comment">/**</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="5" href="#5">5</a></td><td class="col-11 codeLine"><span class="comment">&nbsp;*&nbsp;If&nbsp;an&nbsp;entity&nbsp;adds&nbsp;this&nbsp;interface,&nbsp;we&nbsp;do&nbsp;extra&nbsp;checks&nbsp;on&nbsp;existing&nbsp;sessions&nbsp;to&nbsp;see&nbsp;if&nbsp;you&nbsp;are&nbsp;still&nbsp;allowed&nbsp;to&nbsp;be&nbsp;logged</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="6" href="#6">6</a></td><td class="col-11 codeLine"><span class="comment">&nbsp;*&nbsp;in.</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="7" href="#7">7</a></td><td class="col-11 codeLine"><span class="comment">&nbsp;*/</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="8" href="#8">8</a></td><td class="col-11 codeLine"><span class="keyword">interface</span><span class="default">&nbsp;</span><span class="default">CheckLoginStatusInterface</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="9" href="#9">9</a></td><td class="col-11 codeLine"><span class="keyword">{</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="10" href="#10">10</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public</span><span class="default">&nbsp;</span><span class="keyword">function</span><span class="default">&nbsp;</span><span class="default">isDisabled</span><span class="keyword">(</span><span class="keyword">)</span><span class="keyword">:</span><span class="default">&nbsp;</span><span class="default">bool</span><span class="keyword">;</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="11" href="#11">11</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="4" href="#4">4</a></td><td class="col-11 codeLine"><span class="keyword">interface</span><span class="default">&nbsp;</span><span class="default">FieldWithPossibleDefaultValue</span><span class="default">&nbsp;</span><span class="keyword">extends</span><span class="default">&nbsp;</span><span class="default">FieldInterface</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="5" href="#5">5</a></td><td class="col-11 codeLine"><span class="keyword">{</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="6" href="#6">6</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public</span><span class="default">&nbsp;</span><span class="keyword">function</span><span class="default">&nbsp;</span><span class="default">hasDefaultValue</span><span class="keyword">(</span><span class="keyword">)</span><span class="keyword">:</span><span class="default">&nbsp;</span><span class="default">bool</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="7" href="#7">7</a></td><td class="col-11 codeLine"></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="8" href="#8">8</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public</span><span class="default">&nbsp;</span><span class="keyword">function</span><span class="default">&nbsp;</span><span class="default">getDefaultValue</span><span class="keyword">(</span><span class="keyword">)</span><span class="keyword">:</span><span class="default">&nbsp;</span><span class="default">mixed</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="9" href="#9">9</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
 
 </tbody>
 </table>
