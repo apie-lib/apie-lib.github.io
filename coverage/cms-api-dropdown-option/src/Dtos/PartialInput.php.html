@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>Code Coverage for /home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages/serializer/src/Exceptions/ThisIsNotAFieldException.php</title>
+  <title>Code Coverage for /home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages/cms-api-dropdown-option/src/Dtos/PartialInput.php</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="../../../_css/octicons.css" rel="stylesheet" type="text/css">
@@ -17,10 +17,10 @@
       <nav aria-label="breadcrumb">
        <ol class="breadcrumb">
          <li class="breadcrumb-item"><a href="../../../index.html">/home/runner/work/apie-lib-monorepo/apie-lib-monorepo/packages</a></li>
-         <li class="breadcrumb-item"><a href="../../index.html">serializer</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">cms-api-dropdown-option</a></li>
          <li class="breadcrumb-item"><a href="../index.html">src</a></li>
-         <li class="breadcrumb-item"><a href="index.html">Exceptions</a></li>
-         <li class="breadcrumb-item active">ThisIsNotAFieldException.php</li>
+         <li class="breadcrumb-item"><a href="index.html">Dtos</a></li>
+         <li class="breadcrumb-item active">PartialInput.php</li>
 
        </ol>
       </nav>
@@ -59,29 +59,17 @@
       </tr>
 
       <tr>
-       <td class=""><abbr title="Apie\Serializer\Exceptions\ThisIsNotAFieldException">ThisIsNotAFieldException</abbr></td>
+       <td class=""><abbr title="Apie\CmsApiDropdownOption\Dtos\PartialInput">PartialInput</abbr></td>
        <td class=" big"></td>
        <td class=" small"><div align="right">n/a</div></td>
        <td class=" small"><div align="right">0&nbsp;/&nbsp;0</div></td>
        <td class=" big"></td>
        <td class=" small"><div align="right">n/a</div></td>
        <td class=" small"><div align="right">0&nbsp;/&nbsp;0</div></td>
-       <td class=" small">1</td>
+       <td class=" small">0</td>
        <td class=" big"></td>
        <td class=" small"><div align="right">n/a</div></td>
        <td class=" small"><div align="right">0&nbsp;/&nbsp;0</div></td>
-      </tr>
-
-      <tr>
-       <td class="">&nbsp;<a href="#8"><abbr title="__construct(string $fieldName)">__construct</abbr></a></td>
-       <td class=" big"></td>
-       <td class=" small"><div align="right">n/a</div></td>
-       <td class=" small"><div align="right">0&nbsp;/&nbsp;0</div></td>
-       <td class=" big"></td>
-       <td class=" small"><div align="right">n/a</div></td>
-       <td class=" small"><div align="right">0&nbsp;/&nbsp;0</div></td>
-       <td class=" small">1</td>
-       <td class="" colspan="3"></td>
       </tr>
 
 
@@ -91,17 +79,14 @@
 <table id="code" class="table table-borderless table-condensed">
 <tbody>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="1" href="#1">1</a></td><td class="col-11 codeLine"><span class="default">&lt;?php</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="2" href="#2">2</a></td><td class="col-11 codeLine"><span class="keyword">namespace</span><span class="default">&nbsp;</span><span class="default">Apie\Serializer\Exceptions</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="2" href="#2">2</a></td><td class="col-11 codeLine"><span class="keyword">namespace</span><span class="default">&nbsp;</span><span class="default">Apie\CmsApiDropdownOption\Dtos</span><span class="keyword">;</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="3" href="#3">3</a></td><td class="col-11 codeLine"></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="4" href="#4">4</a></td><td class="col-11 codeLine"><span class="keyword">use</span><span class="default">&nbsp;</span><span class="default">Apie\Core\Exceptions\ApieException</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="4" href="#4">4</a></td><td class="col-11 codeLine"><span class="keyword">use</span><span class="default">&nbsp;</span><span class="default">Apie\Core\Dto\DtoInterface</span><span class="keyword">;</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="5" href="#5">5</a></td><td class="col-11 codeLine"></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="6" href="#6">6</a></td><td class="col-11 codeLine"><span class="keyword">class</span><span class="default">&nbsp;</span><span class="default">ThisIsNotAFieldException</span><span class="default">&nbsp;</span><span class="keyword">extends</span><span class="default">&nbsp;</span><span class="default">ApieException</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="6" href="#6">6</a></td><td class="col-11 codeLine"><span class="keyword">final</span><span class="default">&nbsp;</span><span class="keyword">class</span><span class="default">&nbsp;</span><span class="default">PartialInput</span><span class="default">&nbsp;</span><span class="keyword">implements</span><span class="default">&nbsp;</span><span class="default">DtoInterface</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="7" href="#7">7</a></td><td class="col-11 codeLine"><span class="keyword">{</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="8" href="#8">8</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public</span><span class="default">&nbsp;</span><span class="keyword">function</span><span class="default">&nbsp;</span><span class="default">__construct</span><span class="keyword">(</span><span class="default">string</span><span class="default">&nbsp;</span><span class="default">$fieldName</span><span class="keyword">)</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="9" href="#9">9</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">{</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="10" href="#10">10</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="default">parent</span><span class="default">::</span><span class="default">__construct</span><span class="keyword">(</span><span class="default">'&quot;'</span><span class="default">&nbsp;</span><span class="keyword">.</span><span class="default">&nbsp;</span><span class="default">$fieldName</span><span class="default">&nbsp;</span><span class="keyword">.</span><span class="default">&nbsp;</span><span class="default">'&quot;&nbsp;is&nbsp;not&nbsp;a&nbsp;field&nbsp;you&nbsp;can&nbsp;set'</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="11" href="#11">11</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="12" href="#12">12</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="8" href="#8">8</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">public</span><span class="default">&nbsp;</span><span class="default">string</span><span class="default">&nbsp;</span><span class="default">$input</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="9" href="#9">9</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
 
 </tbody>
 </table>
