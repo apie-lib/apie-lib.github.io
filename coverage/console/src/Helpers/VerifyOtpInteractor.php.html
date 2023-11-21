@@ -47,13 +47,13 @@
       <tr>
        <td class="danger">Total</td>
        <td class="danger big">       <div class="progress">
-         <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="17.39" aria-valuemin="0" aria-valuemax="100" style="width: 17.39%">
-           <span class="sr-only">17.39% covered (danger)</span>
+         <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="16.67" aria-valuemin="0" aria-valuemax="100" style="width: 16.67%">
+           <span class="sr-only">16.67% covered (danger)</span>
          </div>
        </div>
 </td>
-       <td class="danger small"><div align="right">17.39%</div></td>
-       <td class="danger small"><div align="right">4&nbsp;/&nbsp;23</div></td>
+       <td class="danger small"><div align="right">16.67%</div></td>
+       <td class="danger small"><div align="right">4&nbsp;/&nbsp;24</div></td>
        <td class="danger big">       <div class="progress">
          <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50.00" aria-valuemin="0" aria-valuemax="100" style="width: 50.00%">
            <span class="sr-only">50.00% covered (danger)</span>
@@ -76,13 +76,13 @@
       <tr>
        <td class="danger"><abbr title="Apie\Console\Helpers\VerifyOtpInteractor">VerifyOtpInteractor</abbr></td>
        <td class="danger big">       <div class="progress">
-         <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="17.39" aria-valuemin="0" aria-valuemax="100" style="width: 17.39%">
-           <span class="sr-only">17.39% covered (danger)</span>
+         <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="16.67" aria-valuemin="0" aria-valuemax="100" style="width: 16.67%">
+           <span class="sr-only">16.67% covered (danger)</span>
          </div>
        </div>
 </td>
-       <td class="danger small"><div align="right">17.39%</div></td>
-       <td class="danger small"><div align="right">4&nbsp;/&nbsp;23</div></td>
+       <td class="danger small"><div align="right">16.67%</div></td>
+       <td class="danger small"><div align="right">4&nbsp;/&nbsp;24</div></td>
        <td class="danger big">       <div class="progress">
          <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50.00" aria-valuemin="0" aria-valuemax="100" style="width: 50.00%">
            <span class="sr-only">50.00% covered (danger)</span>
@@ -91,7 +91,7 @@
 </td>
        <td class="danger small"><div align="right">50.00%</div></td>
        <td class="danger small"><div align="right">1&nbsp;/&nbsp;2</div></td>
-       <td class="danger small">19.09</td>
+       <td class="danger small">19.47</td>
        <td class="danger big">       <div class="progress">
          <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="0.00" aria-valuemin="0" aria-valuemax="100" style="width: 0.00%">
            <span class="sr-only">0.00% covered (danger)</span>
@@ -133,7 +133,7 @@
        </div>
 </td>
        <td class="danger small"><div align="right">0.00%</div></td>
-       <td class="danger small"><div align="right">0&nbsp;/&nbsp;19</div></td>
+       <td class="danger small"><div align="right">0&nbsp;/&nbsp;20</div></td>
        <td class="danger big">       <div class="progress">
          <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="0.00" aria-valuemin="0" aria-valuemax="100" style="width: 0.00%">
            <span class="sr-only">0.00% covered (danger)</span>
@@ -211,10 +211,11 @@
     <tr class="danger d-flex"><td  class="col-1 text-right"><a id="57" href="#57">57</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">if</span><span class="default">&nbsp;</span><span class="keyword">(</span><span class="keyword">!</span><span class="default">$secret</span><span class="default">-&gt;</span><span class="default">verify</span><span class="keyword">(</span><span class="default">$otpInstance</span><span class="keyword">)</span><span class="keyword">)</span><span class="default">&nbsp;</span><span class="keyword">{</span></td></tr>
     <tr class="danger d-flex"><td  class="col-1 text-right"><a id="58" href="#58">58</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">throw</span><span class="default">&nbsp;</span><span class="keyword">new</span><span class="default">&nbsp;</span><span class="default">LogicException</span><span class="keyword">(</span><span class="default">'Code&nbsp;is&nbsp;not&nbsp;valid!'</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
     <tr class=" d-flex"><td  class="col-1 text-right"><a id="59" href="#59">59</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span></td></tr>
-    <tr class="danger d-flex"><td  class="col-1 text-right"><a id="60" href="#60">60</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
-    <tr class="danger d-flex"><td  class="col-1 text-right"><a id="61" href="#61">61</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">return</span><span class="default">&nbsp;</span><span class="default">(string)</span><span class="default">&nbsp;</span><span class="default">$helper</span><span class="default">-&gt;</span><span class="default">ask</span><span class="keyword">(</span><span class="default">$input</span><span class="keyword">,</span><span class="default">&nbsp;</span><span class="default">$output</span><span class="keyword">,</span><span class="default">&nbsp;</span><span class="default">$question</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="62" href="#62">62</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span></td></tr>
-    <tr class=" d-flex"><td  class="col-1 text-right"><a id="63" href="#63">63</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
+    <tr class="danger d-flex"><td  class="col-1 text-right"><a id="60" href="#60">60</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">return</span><span class="default">&nbsp;</span><span class="default">$otpInstance</span><span class="default">-&gt;</span><span class="default">toNative</span><span class="keyword">(</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
+    <tr class="danger d-flex"><td  class="col-1 text-right"><a id="61" href="#61">61</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
+    <tr class="danger d-flex"><td  class="col-1 text-right"><a id="62" href="#62">62</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">return</span><span class="default">&nbsp;</span><span class="default">(string)</span><span class="default">&nbsp;</span><span class="default">$helper</span><span class="default">-&gt;</span><span class="default">ask</span><span class="keyword">(</span><span class="default">$input</span><span class="keyword">,</span><span class="default">&nbsp;</span><span class="default">$output</span><span class="keyword">,</span><span class="default">&nbsp;</span><span class="default">$question</span><span class="keyword">)</span><span class="keyword">;</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="63" href="#63">63</a></td><td class="col-11 codeLine"><span class="default">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword">}</span></td></tr>
+    <tr class=" d-flex"><td  class="col-1 text-right"><a id="64" href="#64">64</a></td><td class="col-11 codeLine"><span class="keyword">}</span></td></tr>
 
 </tbody>
 </table>
@@ -225,7 +226,7 @@
     <h4>Legend</h4>
     <p><span class="legend covered-by-small-tests">Covered by small (and larger) tests</span><span class="legend covered-by-medium-tests">Covered by medium (and large) tests</span><span class="legend covered-by-large-tests">Covered by large tests (and tests of unknown size)</span><span class="legend not-covered">Not covered</span><span class="legend not-coverable">Not coverable</span></p>
     <p>
-     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.1.25</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Tue Nov 21 15:12:25 UTC 2023.</small>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.1.25</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Tue Nov 21 15:34:27 UTC 2023.</small>
     </p>
     <a title="Back to the top" id="toplink" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M12 11L6 5l-6 6h12z"/></svg>
