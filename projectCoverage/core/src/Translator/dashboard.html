@@ -62,6 +62,7 @@
        <tbody>
        <tr><td><a href="Lists/TranslationStringSet.php.html#7">Apie\Core\Translator\Lists\TranslationStringSet</a></td><td class="text-right">0%</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#10">Apie\Core\Translator\ValueObjects\TranslationString</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#13">Apie\Core\Translator\TranslationStringSetBuilder</a></td><td class="text-right">56%</td></tr>
        <tr><td><a href="Enums/FromFileLanguage.php.html#6">Apie\Core\Translator\Enums\FromFileLanguage</a></td><td class="text-right">75%</td></tr>
 
        </tbody>
@@ -79,6 +80,7 @@
         </tr>
        </thead>
        <tbody>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#13">Apie\Core\Translator\TranslationStringSetBuilder</a></td><td class="text-right">75</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#10">Apie\Core\Translator\ValueObjects\TranslationString</a></td><td class="text-right">25</td></tr>
        <tr><td><a href="Enums/FromFileLanguage.php.html#6">Apie\Core\Translator\Enums\FromFileLanguage</a></td><td class="text-right">2</td></tr>
 
@@ -119,10 +121,17 @@
        </thead>
        <tbody>
        <tr><td><a href="Lists/TranslationStringSet.php.html#11"><abbr title="Apie\Core\Translator\Lists\TranslationStringSet::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#92"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::makeSet">makeSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#138"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::singular">singular</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#146"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::plural">plural</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#154"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::withProperty">withProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#162"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::withPlaceholder">withPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#170"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::withOperationType">withOperationType</abbr></a></td><td class="text-right">0%</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#24"><abbr title="Apie\Core\Translator\ValueObjects\TranslationString::toUnbounded">toUnbounded</abbr></a></td><td class="text-right">0%</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#45"><abbr title="Apie\Core\Translator\ValueObjects\TranslationString::createForResourceName">createForResourceName</abbr></a></td><td class="text-right">0%</td></tr>
        <tr><td><a href="Enums/FromFileLanguage.php.html#11"><abbr title="Apie\Core\Translator\Enums\FromFileLanguage::fromContext">fromContext</abbr></a></td><td class="text-right">75%</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#32"><abbr title="Apie\Core\Translator\ValueObjects\TranslationString::getLastTranslationSegment">getLastTranslationSegment</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#42"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::buildFromSegments">buildFromSegments</abbr></a></td><td class="text-right">88%</td></tr>
 
        </tbody>
       </table>
@@ -139,6 +148,8 @@
         </tr>
        </thead>
        <tbody>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#92"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::makeSet">makeSet</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TranslationStringSetBuilder.php.html#42"><abbr title="Apie\Core\Translator\TranslationStringSetBuilder::buildFromSegments">buildFromSegments</abbr></a></td><td class="text-right">8</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#24"><abbr title="Apie\Core\Translator\ValueObjects\TranslationString::toUnbounded">toUnbounded</abbr></a></td><td class="text-right">6</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#45"><abbr title="Apie\Core\Translator\ValueObjects\TranslationString::createForResourceName">createForResourceName</abbr></a></td><td class="text-right">6</td></tr>
        <tr><td><a href="ValueObjects/TranslationString.php.html#32"><abbr title="Apie\Core\Translator\ValueObjects\TranslationString::getLastTranslationSegment">getLastTranslationSegment</abbr></a></td><td class="text-right">4</td></tr>
@@ -152,7 +163,7 @@
    <footer>
     <hr/>
     <p>
-     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.32</a> using <a href="https://secure.php.net/" target="_top">PHP 8.3.14</a> at Fri Dec 6 12:29:51 UTC 2024.</small>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.32</a> using <a href="https://secure.php.net/" target="_top">PHP 8.3.14</a> at Sat Dec 7 10:02:02 UTC 2024.</small>
     </p>
    </footer>
   </div>
@@ -171,7 +182,7 @@ $(document).ready(function() {
       .yAxis.tickFormat(d3.format('d'));
 
     d3.select('#classCoverageDistribution svg')
-      .datum(getCoverageDistributionData([1,0,0,0,0,1,0,0,1,0,0,3], "Class Coverage"))
+      .datum(getCoverageDistributionData([1,0,0,0,0,1,1,0,1,0,0,5], "Class Coverage"))
       .transition().duration(500).call(chart);
 
     nv.utils.windowResize(chart.update);
@@ -189,7 +200,7 @@ $(document).ready(function() {
       .yAxis.tickFormat(d3.format('d'));
 
     d3.select('#methodCoverageDistribution svg')
-      .datum(getCoverageDistributionData([3,0,0,0,0,0,0,0,1,1,0,10], "Method Coverage"))
+      .datum(getCoverageDistributionData([9,0,0,0,0,0,0,0,1,2,1,19], "Method Coverage"))
       .transition().duration(500).call(chart);
 
     nv.utils.windowResize(chart.update);
@@ -239,7 +250,7 @@ $(document).ready(function() {
     chart.yAxis.axisLabel('Cyclomatic Complexity');
 
     d3.select('#classComplexity svg')
-      .datum(getComplexityData([[100,7,"<a href=\"ApieTranslator.php.html#8\">Apie\\Core\\Translator\\ApieTranslator<\/a>"],[100,5,"<a href=\"DefaultLabelPropertyTranslator.php.html#12\">Apie\\Core\\Translator\\DefaultLabelPropertyTranslator<\/a>"],[100,6,"<a href=\"FromFileTranslator.php.html#9\">Apie\\Core\\Translator\\FromFileTranslator<\/a>"],[0,1,"<a href=\"Lists\/TranslationStringSet.php.html#7\">Apie\\Core\\Translator\\Lists\\TranslationStringSet<\/a>"],[46.15384615384615,10,"<a href=\"ValueObjects\/TranslationString.php.html#10\">Apie\\Core\\Translator\\ValueObjects\\TranslationString<\/a>"],[75,2,"<a href=\"Enums\/FromFileLanguage.php.html#6\">Apie\\Core\\Translator\\Enums\\FromFileLanguage<\/a>"]], 'Class Complexity'))
+      .datum(getComplexityData([[100,7,"<a href=\"ApieTranslator.php.html#8\">Apie\\Core\\Translator\\ApieTranslator<\/a>"],[100,5,"<a href=\"DefaultLabelPropertyTranslator.php.html#12\">Apie\\Core\\Translator\\DefaultLabelPropertyTranslator<\/a>"],[100,6,"<a href=\"FromFileTranslator.php.html#9\">Apie\\Core\\Translator\\FromFileTranslator<\/a>"],[0,1,"<a href=\"Lists\/TranslationStringSet.php.html#7\">Apie\\Core\\Translator\\Lists\\TranslationStringSet<\/a>"],[56.666666666666664,25,"<a href=\"TranslationStringSetBuilder.php.html#13\">Apie\\Core\\Translator\\TranslationStringSetBuilder<\/a>"],[46.15384615384615,10,"<a href=\"ValueObjects\/TranslationString.php.html#10\">Apie\\Core\\Translator\\ValueObjects\\TranslationString<\/a>"],[75,2,"<a href=\"Enums\/FromFileLanguage.php.html#6\">Apie\\Core\\Translator\\Enums\\FromFileLanguage<\/a>"],[100,5,"<a href=\"Enums\/TranslationStringOperationType.php.html#4\">Apie\\Core\\Translator\\Enums\\TranslationStringOperationType<\/a>"],[100,11,"<a href=\"Enums\/TranslationStringType.php.html#9\">Apie\\Core\\Translator\\Enums\\TranslationStringType<\/a>"]], 'Class Complexity'))
       .transition()
       .duration(500)
       .call(chart);
@@ -263,7 +274,7 @@ $(document).ready(function() {
     chart.yAxis.axisLabel('Method Complexity');
 
     d3.select('#methodComplexity svg')
-      .datum(getComplexityData([[100,1,"<a href=\"ApieTranslator.php.html#15\">Apie\\Core\\Translator\\ApieTranslator::__construct<\/a>"],[100,1,"<a href=\"ApieTranslator.php.html#21\">Apie\\Core\\Translator\\ApieTranslator::create<\/a>"],[100,5,"<a href=\"ApieTranslator.php.html#29\">Apie\\Core\\Translator\\ApieTranslator::getGeneralTranslation<\/a>"],[100,4,"<a href=\"DefaultLabelPropertyTranslator.php.html#14\">Apie\\Core\\Translator\\DefaultLabelPropertyTranslator::getGeneralTranslation<\/a>"],[100,1,"<a href=\"DefaultLabelPropertyTranslator.php.html#27\">Apie\\Core\\Translator\\DefaultLabelPropertyTranslator::isPropertyTranslation<\/a>"],[100,1,"<a href=\"FromFileTranslator.php.html#11\">Apie\\Core\\Translator\\FromFileTranslator::__construct<\/a>"],[100,1,"<a href=\"FromFileTranslator.php.html#15\">Apie\\Core\\Translator\\FromFileTranslator::createFallback<\/a>"],[100,4,"<a href=\"FromFileTranslator.php.html#20\">Apie\\Core\\Translator\\FromFileTranslator::getGeneralTranslation<\/a>"],[0,1,"<a href=\"Lists\/TranslationStringSet.php.html#11\">Apie\\Core\\Translator\\Lists\\TranslationStringSet::offsetGet<\/a>"],[100,1,"<a href=\"ValueObjects\/TranslationString.php.html#14\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::getRegularExpression<\/a>"],[100,1,"<a href=\"ValueObjects\/TranslationString.php.html#19\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::toPath<\/a>"],[0,2,"<a href=\"ValueObjects\/TranslationString.php.html#24\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::toUnbounded<\/a>"],[80,4,"<a href=\"ValueObjects\/TranslationString.php.html#32\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::getLastTranslationSegment<\/a>"],[0,2,"<a href=\"ValueObjects\/TranslationString.php.html#45\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::createForResourceName<\/a>"],[75,2,"<a href=\"Enums\/FromFileLanguage.php.html#11\">Apie\\Core\\Translator\\Enums\\FromFileLanguage::fromContext<\/a>"]], 'Method Complexity'))
+      .datum(getComplexityData([[100,1,"<a href=\"ApieTranslator.php.html#15\">Apie\\Core\\Translator\\ApieTranslator::__construct<\/a>"],[100,1,"<a href=\"ApieTranslator.php.html#21\">Apie\\Core\\Translator\\ApieTranslator::create<\/a>"],[100,5,"<a href=\"ApieTranslator.php.html#29\">Apie\\Core\\Translator\\ApieTranslator::getGeneralTranslation<\/a>"],[100,4,"<a href=\"DefaultLabelPropertyTranslator.php.html#14\">Apie\\Core\\Translator\\DefaultLabelPropertyTranslator::getGeneralTranslation<\/a>"],[100,1,"<a href=\"DefaultLabelPropertyTranslator.php.html#27\">Apie\\Core\\Translator\\DefaultLabelPropertyTranslator::isPropertyTranslation<\/a>"],[100,1,"<a href=\"FromFileTranslator.php.html#11\">Apie\\Core\\Translator\\FromFileTranslator::__construct<\/a>"],[100,1,"<a href=\"FromFileTranslator.php.html#15\">Apie\\Core\\Translator\\FromFileTranslator::createFallback<\/a>"],[100,4,"<a href=\"FromFileTranslator.php.html#20\">Apie\\Core\\Translator\\FromFileTranslator::getGeneralTranslation<\/a>"],[0,1,"<a href=\"Lists\/TranslationStringSet.php.html#11\">Apie\\Core\\Translator\\Lists\\TranslationStringSet::offsetGet<\/a>"],[100,1,"<a href=\"TranslationStringSetBuilder.php.html#24\">Apie\\Core\\Translator\\TranslationStringSetBuilder::__construct<\/a>"],[100,1,"<a href=\"TranslationStringSetBuilder.php.html#33\">Apie\\Core\\Translator\\TranslationStringSetBuilder::create<\/a>"],[88.23529411764706,8,"<a href=\"TranslationStringSetBuilder.php.html#42\">Apie\\Core\\Translator\\TranslationStringSetBuilder::buildFromSegments<\/a>"],[100,1,"<a href=\"TranslationStringSetBuilder.php.html#73\">Apie\\Core\\Translator\\TranslationStringSetBuilder::build<\/a>"],[0,5,"<a href=\"TranslationStringSetBuilder.php.html#92\">Apie\\Core\\Translator\\TranslationStringSetBuilder::makeSet<\/a>"],[90.47619047619048,4,"<a href=\"TranslationStringSetBuilder.php.html#113\">Apie\\Core\\Translator\\TranslationStringSetBuilder::makeAllVariations<\/a>"],[0,1,"<a href=\"TranslationStringSetBuilder.php.html#138\">Apie\\Core\\Translator\\TranslationStringSetBuilder::singular<\/a>"],[0,1,"<a href=\"TranslationStringSetBuilder.php.html#146\">Apie\\Core\\Translator\\TranslationStringSetBuilder::plural<\/a>"],[0,1,"<a href=\"TranslationStringSetBuilder.php.html#154\">Apie\\Core\\Translator\\TranslationStringSetBuilder::withProperty<\/a>"],[0,1,"<a href=\"TranslationStringSetBuilder.php.html#162\">Apie\\Core\\Translator\\TranslationStringSetBuilder::withPlaceholder<\/a>"],[0,1,"<a href=\"TranslationStringSetBuilder.php.html#170\">Apie\\Core\\Translator\\TranslationStringSetBuilder::withOperationType<\/a>"],[100,1,"<a href=\"ValueObjects\/TranslationString.php.html#14\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::getRegularExpression<\/a>"],[100,1,"<a href=\"ValueObjects\/TranslationString.php.html#19\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::toPath<\/a>"],[0,2,"<a href=\"ValueObjects\/TranslationString.php.html#24\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::toUnbounded<\/a>"],[80,4,"<a href=\"ValueObjects\/TranslationString.php.html#32\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::getLastTranslationSegment<\/a>"],[0,2,"<a href=\"ValueObjects\/TranslationString.php.html#45\">Apie\\Core\\Translator\\ValueObjects\\TranslationString::createForResourceName<\/a>"],[75,2,"<a href=\"Enums\/FromFileLanguage.php.html#11\">Apie\\Core\\Translator\\Enums\\FromFileLanguage::fromContext<\/a>"],[100,1,"<a href=\"Enums\/TranslationStringOperationType.php.html#15\">Apie\\Core\\Translator\\Enums\\TranslationStringOperationType::stringCases<\/a>"],[100,2,"<a href=\"Enums\/TranslationStringOperationType.php.html#25\">Apie\\Core\\Translator\\Enums\\TranslationStringOperationType::canRead<\/a>"],[100,1,"<a href=\"Enums\/TranslationStringOperationType.php.html#30\">Apie\\Core\\Translator\\Enums\\TranslationStringOperationType::canCreate<\/a>"],[100,1,"<a href=\"Enums\/TranslationStringOperationType.php.html#35\">Apie\\Core\\Translator\\Enums\\TranslationStringOperationType::canUpdate<\/a>"],[100,1,"<a href=\"Enums\/TranslationStringType.php.html#16\">Apie\\Core\\Translator\\Enums\\TranslationStringType::requiresProperty<\/a>"],[100,10,"<a href=\"Enums\/TranslationStringType.php.html#25\">Apie\\Core\\Translator\\Enums\\TranslationStringType::stringCasesFor<\/a>"]], 'Method Complexity'))
       .transition()
       .duration(500)
       .call(chart);
